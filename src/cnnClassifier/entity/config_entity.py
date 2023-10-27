@@ -10,7 +10,6 @@ class DataIngestionConfig:
     unzip_dir: Path
 
 
-
 @dataclass(frozen=True)
 class PrepareBaseModelConfig:
     root_dir: Path
